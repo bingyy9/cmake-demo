@@ -1,0 +1,9 @@
+Runs 2 0.00234521
+Usage 2 0.00172487
+Computer4 2 0.00183973
+Computer9 2 0.0019562
+Computer5 2 0.00173178
+Computer7 2 0.00183539
+Computer-25 2 0.00185788
+Computer0.0001 1 0.00371818
+---

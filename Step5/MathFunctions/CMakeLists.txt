@@ -1,4 +1,4 @@
-add_library(MathFunctions MathFunctions.cxx)
+add_library(MathFunctions SHARED MathFunctions.cxx)
 
 # state that anybody linking to us needs to include the current source dir
 # to find MathFunctions.h, while we don't.
@@ -28,6 +28,11 @@ target_link_libraries(MathFunctions PUBLIC tutorial_compiler_flags)
 # libraries we want to install (e.g. MathFunctions and tutorial_compiler_flags)
 # Then install the installable libraries to the lib folder.
 # Hint: Use the TARGETS and DESTINATION parameters
+#安装两个可执行文件到lib目录下
+set(installable_libs MathFunctions tutorial_compiler_flags)
+install(TARGETS ${installable_libs} DESTINATION lib)
 
 # TODO 2: Install the library headers to the include folder.
 # Hint: Use the FILES and DESTINATION parameters
+#安装头文件到include目录下
+install(FILES MathFunctions.h DESTINATION include)

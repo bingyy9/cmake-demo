@@ -1,0 +1,199 @@
+Start testing: Aug 30 09:32 CST
+----------------------------------------------------------
+1/8 Testing: Runs
+1/8 Test: Runs
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "25"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Runs" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 25 to be 13
+Computing sqrt of 25 to be 7.46154
+Computing sqrt of 25 to be 5.40603
+Computing sqrt of 25 to be 5.01525
+Computing sqrt of 25 to be 5.00002
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+Computing sqrt of 25 to be 5
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Runs" end time: Aug 30 09:32 CST
+"Runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: Usage
+2/8 Test: Usage
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Usage" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial Version 1.0
+Usage: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial number
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Usage.*number]
+"Usage" end time: Aug 30 09:32 CST
+"Usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: Computer4
+3/8 Test: Computer4
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "4"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer4" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 4 to be 2.5
+Computing sqrt of 4 to be 2.05
+Computing sqrt of 4 to be 2.00061
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+Computing sqrt of 4 to be 2
+The square root of 4 is 2
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4 is 2]
+"Computer4" end time: Aug 30 09:32 CST
+"Computer4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: Computer9
+4/8 Test: Computer9
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "9"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer9" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 9 to be 5
+Computing sqrt of 9 to be 3.4
+Computing sqrt of 9 to be 3.02353
+Computing sqrt of 9 to be 3.00009
+Computing sqrt of 9 to be 3
+Computing sqrt of 9 to be 3
+Computing sqrt of 9 to be 3
+Computing sqrt of 9 to be 3
+Computing sqrt of 9 to be 3
+Computing sqrt of 9 to be 3
+The square root of 9 is 3
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[9 is 3]
+"Computer9" end time: Aug 30 09:32 CST
+"Computer9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: Computer5
+5/8 Test: Computer5
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "5"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer5" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 5 to be 3
+Computing sqrt of 5 to be 2.33333
+Computing sqrt of 5 to be 2.2381
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+Computing sqrt of 5 to be 2.23607
+The square root of 5 is 2.23607
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[5 is 2.236]
+"Computer5" end time: Aug 30 09:32 CST
+"Computer5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: Computer7
+6/8 Test: Computer7
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "7"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer7" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 7 to be 4
+Computing sqrt of 7 to be 2.875
+Computing sqrt of 7 to be 2.65489
+Computing sqrt of 7 to be 2.64577
+Computing sqrt of 7 to be 2.64575
+Computing sqrt of 7 to be 2.64575
+Computing sqrt of 7 to be 2.64575
+Computing sqrt of 7 to be 2.64575
+Computing sqrt of 7 to be 2.64575
+Computing sqrt of 7 to be 2.64575
+The square root of 7 is 2.64575
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[7 is 2.645]
+"Computer7" end time: Aug 30 09:32 CST
+"Computer7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: Computer-25
+7/8 Test: Computer-25
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "-25"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer-25" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+The square root of -25 is 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-25 is (-nan|nan|0)]
+"Computer-25" end time: Aug 30 09:32 CST
+"Computer-25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: Computer0.0001
+8/8 Test: Computer0.0001
+Command: "/Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build/Tutorial" "0.0001"
+Directory: /Users/bingy/dev/cmake-3.27.4-tutorial-source/Step5/build
+"Computer0.0001" start time: Aug 30 09:32 CST
+Output:
+----------------------------------------------------------
+Computing sqrt of 0.0001 to be 0.50005
+Computing sqrt of 0.0001 to be 0.250125
+Computing sqrt of 0.0001 to be 0.125262
+Computing sqrt of 0.0001 to be 0.0630304
+Computing sqrt of 0.0001 to be 0.0323084
+Computing sqrt of 0.0001 to be 0.0177018
+Computing sqrt of 0.0001 to be 0.0116755
+Computing sqrt of 0.0001 to be 0.0101202
+Computing sqrt of 0.0001 to be 0.0100007
+Computing sqrt of 0.0001 to be 0.01
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0.0001 is 0.01]
+"Computer0.0001" end time: Aug 30 09:32 CST
+"Computer0.0001" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 30 09:32 CST
